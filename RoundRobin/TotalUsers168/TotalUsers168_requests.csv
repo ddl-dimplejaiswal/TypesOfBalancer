@@ -1,0 +1,18 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"GET","/",16,0,6,115,3,1729,3079,0.05
+"POST","/",16,0,160,216,152,754,2524,0.05
+"GET","/analysis.html",27,0,37,2945,13,16539,52059,0.09
+"POST","/analysisResult.html?stock=Apple&type=Candle&date_from=2015-11-03&date_to=2020-02-20",13,0,3900,6084,2720,14849,6914762,0.04
+"POST","/analysisResult.html?stock=Apple&type=Line&date_from=2015-11-03&date_to=2020-02-20",11,0,4900,8313,3310,23046,3512018,0.04
+"POST","/analysisResult.html?stock=Apple&type=Table&date_from=2015-11-03&date_to=2020-02-20",2,0,4600,8528,4622,12434,658134,0.01
+"GET","/compare.html",60,0,610,3042,23,16155,108023,0.20
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Candle&date_from=2015-02-02&date_to=2020-02-20",28,0,8100,9711,5541,24207,13911284,0.09
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Line&date_from=2015-02-02&date_to=2020-02-20",24,0,9600,11730,6883,22781,14042800,0.08
+"POST","/compareResult.html?stock1=American&stock2=Adobe&type=Table&date_from=2015-02-02&date_to=2020-02-20",6,0,8000,11240,6511,19009,2422301,0.02
+"GET","/measure.html",104,0,28,2310,15,17270,46273,0.35
+"POST","/measureResults.html",100,0,4100,6057,2460,27206,2105045,0.33
+"GET","/movers.html",66,0,15,3337,4,22641,3745,0.22
+"POST","/moversResult.html",61,0,26000,25260,14087,39208,16055,0.20
+"GET","/prediction.html",45,0,1400,2750,10,14987,40373,0.15
+"POST","/predictionResult.html",45,0,12000,14207,7053,32628,334020,0.15
+"None","Total",624,0,4100,7125,3,39208,1782508,2.09

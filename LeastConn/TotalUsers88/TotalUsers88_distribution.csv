@@ -1,0 +1,18 @@
+"Name","# requests","50%","66%","75%","80%","90%","95%","98%","99%","100%"
+"GET /",8,8,8,8,8,11,11,11,11,11
+"POST /",8,160,160,170,170,170,170,170,170,170
+"GET /analysis.html",30,21,24,26,42,67,99,150,150,150
+"POST /analysisResult.html?stock=Apple&type=Candle&date_from=2015-11-03&date_to=2020-02-20",16,3400,3500,3700,3700,3700,4500,4500,4500,4500
+"POST /analysisResult.html?stock=Apple&type=Line&date_from=2015-11-03&date_to=2020-02-20",12,3300,3300,3500,3500,3600,3600,3600,3600,3600
+"POST /analysisResult.html?stock=Apple&type=Table&date_from=2015-11-03&date_to=2020-02-20",2,3200,3200,3200,3200,3200,3200,3200,3200,3200
+"GET /compare.html",60,27,32,34,35,40,84,140,150,150
+"POST /compareResult.html?stock1=American&stock2=Adobe&type=Candle&date_from=2015-02-02&date_to=2020-02-20",23,6700,6800,7000,7100,7200,7200,7700,7700,7700
+"POST /compareResult.html?stock1=American&stock2=Adobe&type=Line&date_from=2015-02-02&date_to=2020-02-20",30,6900,7400,7600,7700,9000,11000,13000,13000,13000
+"POST /compareResult.html?stock1=American&stock2=Adobe&type=Table&date_from=2015-02-02&date_to=2020-02-20",6,5600,5600,5900,5900,6200,6200,6200,6200,6200
+"GET /measure.html",95,20,23,24,26,29,33,47,140,140
+"POST /measureResults.html",94,3300,3400,3500,3600,3900,4200,6200,7300,7300
+"GET /movers.html",65,5,5,6,6,7,8,11,17,17
+"POST /moversResult.html",62,16000,17000,18000,18000,20000,21000,21000,21000,21000
+"GET /prediction.html",27,15,18,18,19,22,26,43,43,43
+"POST /predictionResult.html",26,8100,8800,9700,9800,12000,14000,15000,15000,15000
+"Total",564,140,3400,5600,6700,15000,17000,19000,20000,21000
